@@ -16,7 +16,9 @@ class MoreOptionAdapter(private val dataSet: Array<String>) :
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-       // holder.bind(position)
+/*
+        holder.bind(position)
+*/
     }
 
     override fun getItemCount() = dataSet.size

@@ -3,36 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/app_navi"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/homeFragment2">
+
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.navi.fragment.HomeDashBroad"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        android:id="@+id/homeFragment2"
+        tools:layout="@layout/homefragment"
+        android:name="com.example.navi.ui.activity.fragment.HomeFragment"
+        android:label="HomeFragment" >
         <action
-            android:id="@+id/action_homeFragment_to_storeFragment"
-            app:destination="@id/storeFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_insuranceFragment"
-            app:destination="@id/insuranceFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_histroyFragment2"
-            app:destination="@id/histroyFragment" />
+            android:id="@+id/action_homeFragment2_to_linesInCompose3"
+            app:destination="@id/linesInCompose3" />
     </fragment>
     <fragment
-        android:id="@+id/storeFragment"
-        android:name="com.example.navi.fragment.BookFlight"
-        android:label="fragment_store"
-        tools:layout="@layout/fragment_store" />
-    <fragment
-        android:id="@+id/insuranceFragment"
-        android:name="com.example.navi.fragment.SelectFlight"
-        android:label="fragment_insurance"
-        tools:layout="@layout/fragment_insurance" />
-    <fragment
-        android:id="@+id/histroyFragment"
-        android:name="com.example.navi.fragment.BoardingPass"
-        android:label="fragment_histroy"
-        tools:layout="@layout/fragment_histroy" />
+        tools:layout="@layout/inlinefragment"
+        android:id="@+id/linesInCompose3"
+        android:name="com.example.navi.ui.activity.fragment.LinesInCompose"
+        android:label="LinesInCompose" />
 </navigation>

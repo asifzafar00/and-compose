@@ -59,7 +59,9 @@ class LinesInCompose : Fragment() {
         Divider(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(height = 100.dp),
+                .height(height = 100.dp)
+                .padding(all = 14.dp)
+            ,
             color = Color.Blue
         ) // horizontal line
         Spacer(

@@ -14,10 +14,18 @@
         <action
             android:id="@+id/action_homeFragment2_to_linesInCompose3"
             app:destination="@id/linesInCompose3" />
+        <action
+            android:id="@+id/action_homeFragment2_to_iconButtonComposeFragment"
+            app:destination="@id/iconButtonComposeFragment" />
     </fragment>
     <fragment
         tools:layout="@layout/inlinefragment"
         android:id="@+id/linesInCompose3"
         android:name="com.example.navi.ui.activity.fragment.LinesInCompose"
         android:label="LinesInCompose" />
+    <fragment
+
+        android:id="@+id/iconButtonComposeFragment"
+        android:name="com.example.navi.ui.activity.fragment.IconButtonComposeFragment"
+        android:label="IconButtonComposeFragment" />
 </navigation>

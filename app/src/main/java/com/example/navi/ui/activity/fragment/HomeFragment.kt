@@ -29,5 +29,10 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_homeFragment2_to_linesInCompose3, bundle)
         }
 
+        binding?.IconButton?.setOnClickListener {
+            val bundle = bundleOf(ObjectCompanions.KEY to "Hi Dev's start learning Compose ")
+            findNavController().navigate(R.id.action_homeFragment2_to_iconButtonComposeFragment, bundle)
+        }
+
     }
 }

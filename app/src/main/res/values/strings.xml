@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Compose</string>
     <string name="outline_button">Outline</string>
-    <string name="line_button">line compose</string>
+    <string name="line_button">Line compose</string>
+    <string name="IconButton_button">Icon Button Compose</string>
 
 </resources>

@@ -14,6 +14,7 @@ import com.example.navi.obj.ObjectCompanions
 class HomeFragment : Fragment() {
 
     private var binding: HomefragmentBinding? = null
+    private  val TAGVALUE = "Hi Dev's start learning Compose "
 
 
     override fun onCreateView(
@@ -25,13 +26,17 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding?.lineButton?.setOnClickListener {
-            val bundle = bundleOf(ObjectCompanions.KEY to "Hi Dev's start learning Compose ")
+            val bundle = bundleOf(ObjectCompanions.KEY to TAGVALUE)
             findNavController().navigate(R.id.action_homeFragment2_to_linesInCompose3, bundle)
         }
 
         binding?.IconButton?.setOnClickListener {
-            val bundle = bundleOf(ObjectCompanions.KEY to "Hi Dev's start learning Compose ")
+            val bundle = bundleOf(ObjectCompanions.KEY to  TAGVALUE)
             findNavController().navigate(R.id.action_homeFragment2_to_iconButtonComposeFragment, bundle)
+        }
+        binding?.BoxButton?.setOnClickListener {
+            val bundle = bundleOf(ObjectCompanions.KEY to TAGVALUE)
+            findNavController().navigate(R.id.action_homeFragment2_to_bozFragment, bundle)
         }
 
     }

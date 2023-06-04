@@ -3,5 +3,6 @@
     <string name="outline_button">Outline</string>
     <string name="line_button">Line compose</string>
     <string name="IconButton_button">Icon Button Compose</string>
+    <string name="BoxButton_button">Box Button Compose</string>
 
 </resources>

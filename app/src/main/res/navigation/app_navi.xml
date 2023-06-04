@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_homeFragment2_to_iconButtonComposeFragment"
             app:destination="@id/iconButtonComposeFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_bozFragment"
+            app:destination="@id/bozFragment" />
     </fragment>
     <fragment
         tools:layout="@layout/inlinefragment"
@@ -28,4 +31,8 @@
         android:id="@+id/iconButtonComposeFragment"
         android:name="com.example.navi.ui.activity.fragment.IconButtonComposeFragment"
         android:label="IconButtonComposeFragment" />
+    <fragment
+        android:id="@+id/bozFragment"
+        android:name="com.example.navi.ui.activity.fragment.BozFragment"
+        android:label="BozFragment" />
 </navigation>

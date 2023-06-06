@@ -18,7 +18,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.Fragment
 import com.example.navi.obj.ObjectCompanions
@@ -64,12 +66,14 @@ class IconButtonComposeFragment : Fragment() {
     Icons.Filled
     Icons.TwoTone
     Icons.Sharp*/
+    @Preview
     @Composable
     private fun MyUI() {
         Icon(
             modifier = Modifier.size(size = 120.dp),
             imageVector = Icons.Sharp.Person,
-            contentDescription = "Person Icon"
+            contentDescription = "Person Icon",
+            tint = Color.Green
         )
 
     }

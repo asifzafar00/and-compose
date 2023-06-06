@@ -37,4 +37,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/IconButton" />
 
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/iconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/IconPlayButton_button"
+        android:textAllCaps="false"
+        android:textColor="@color/material_dynamic_secondary30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BoxButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lazyColumnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LazyColumnButton_button"
+        android:textAllCaps="false"
+        android:textColor="@color/material_dynamic_secondary30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

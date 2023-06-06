@@ -20,6 +20,12 @@
         <action
             android:id="@+id/action_homeFragment2_to_bozFragment"
             app:destination="@id/bozFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_iconFragment"
+            app:destination="@id/iconFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_lazyColumnFragment"
+            app:destination="@id/lazyColumnFragment" />
     </fragment>
     <fragment
         tools:layout="@layout/inlinefragment"
@@ -35,4 +41,12 @@
         android:id="@+id/bozFragment"
         android:name="com.example.navi.ui.activity.fragment.BozFragment"
         android:label="BozFragment" />
+    <fragment
+        android:id="@+id/iconFragment"
+        android:name="com.example.navi.ui.activity.fragment.IconFragment"
+        android:label="IconFragment" />
+    <fragment
+        android:id="@+id/lazyColumnFragment"
+        android:name="com.example.navi.ui.activity.fragment.LazyColumnFragment"
+        android:label="LazyColumnFragment" />
 </navigation>

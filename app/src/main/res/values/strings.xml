@@ -4,5 +4,7 @@
     <string name="line_button">Line compose</string>
     <string name="IconButton_button">Icon Button Compose</string>
     <string name="BoxButton_button">Box Button Compose</string>
+    <string name="IconPlayButton_button">Icon Play Compose</string>
+    <string name="LazyColumnButton_button">Lazy Column Button</string>
 
 </resources>

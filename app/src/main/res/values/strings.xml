@@ -6,5 +6,25 @@
     <string name="BoxButton_button">Box Button Compose</string>
     <string name="IconPlayButton_button">Icon Play Compose</string>
     <string name="LazyColumnButton_button">Lazy Column Button</string>
+    <string name="benefitsButton">Benefits Button</string>
+    <string name="benefits_string">Benefits</string>
+    <string name="on_back_pressed">on Back pressed</string>
+    <string name="benefits_string_para">Benefits %1$s %2$d</string>
+    <string name="Rewards_String">Rewards</string>
+    <string name="travels_String">Travel</string>
+    <string name="more_String">More</string>
+    <string name="x_And_Use_P_String">5x And Use P..</string>
+
+
+    <string name="earn_instantly_String">Earn Instantly</string>
+    <string name="no_Limits_String">No Limits</string>
+    <string name="lifetime_validity">Lifetime Validity</string>
+    <string name="fractional_points">Fractional Points</string>
+
+    <string name="get_1_point_every_50_spent">Get 1 Point for every &#8377; spent</string>
+    <string name="no_caps_on_earning_because_its_one_card">No caps on earning because it\'s OneCard\!</string>
+    <string name="your_points_dont_expire_ever">Your points don\'t expire Ever</string>
+    <string name="get_extra_when_we_add_up_the_decimals">Get extra when we add up the decimals</string>
+
 
 </resources>

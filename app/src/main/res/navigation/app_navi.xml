@@ -26,6 +26,9 @@
         <action
             android:id="@+id/action_homeFragment2_to_lazyColumnFragment"
             app:destination="@id/lazyColumnFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_benefitsFragment"
+            app:destination="@id/benefitsFragment" />
     </fragment>
     <fragment
         tools:layout="@layout/inlinefragment"
@@ -33,20 +36,33 @@
         android:name="com.example.navi.ui.activity.fragment.LinesInCompose"
         android:label="LinesInCompose" />
     <fragment
+        tools:layout="@layout/inlinefragment"
 
         android:id="@+id/iconButtonComposeFragment"
         android:name="com.example.navi.ui.activity.fragment.IconButtonComposeFragment"
         android:label="IconButtonComposeFragment" />
     <fragment
+        tools:layout="@layout/inlinefragment"
+
         android:id="@+id/bozFragment"
         android:name="com.example.navi.ui.activity.fragment.BozFragment"
         android:label="BozFragment" />
     <fragment
+        tools:layout="@layout/inlinefragment"
+
         android:id="@+id/iconFragment"
         android:name="com.example.navi.ui.activity.fragment.IconFragment"
         android:label="IconFragment" />
     <fragment
+        tools:layout="@layout/inlinefragment"
+
         android:id="@+id/lazyColumnFragment"
         android:name="com.example.navi.ui.activity.fragment.LazyColumnFragment"
         android:label="LazyColumnFragment" />
+    <fragment
+        tools:layout="@layout/inlinefragment"
+
+        android:id="@+id/benefitsFragment"
+        android:name="com.example.navi.ui.activity.fragment.BenefitsFragment"
+        android:label="BenefitsFragment" />
 </navigation>

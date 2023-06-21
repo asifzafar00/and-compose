@@ -49,6 +49,11 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_homeFragment2_to_lazyColumnFragment, bundle)
         }
 
+        binding?.benefitsButton?.setOnClickListener {
+            val bundle = bundleOf(ObjectCompanions.KEY to TAGVALUE)
+            findNavController().navigate(R.id.action_homeFragment2_to_benefitsFragment, bundle)
+        }
+
 
     }
 }

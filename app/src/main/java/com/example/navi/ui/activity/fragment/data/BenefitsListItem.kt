@@ -19,7 +19,10 @@ fun titleBenefitsListItem(obj: BenefitsTitle) {
             .wrapContentWidth()
     )
     {
-        Card( modifier = Modifier.padding(start = 20.dp, end = 10.dp).fillMaxWidth(),
+        Card(
+            modifier = Modifier
+                .padding(start = 20.dp, end = 10.dp)
+                .fillMaxWidth(),
             elevation = 4.dp,
             backgroundColor = Color.White,
             shape = RoundedCornerShape(corner = CornerSize(66.dp))

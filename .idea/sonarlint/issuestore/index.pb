@@ -1,10 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-b
-2app/src/main/java/com/example/navi/MainActivity.kt,1/3/1385b383da177cc6efc6ed438eb8283c9f689ef8
-j
-:app/src/main/java/com/example/navi/obj/ObjectCompanions.kt,7/7/777148fb81c42da8127afb8be83496a8ceb63284
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 v
@@ -15,25 +11,5 @@ v
 Fapp/src/main/java/com/example/navi/ui/activity/fragment/theme/Theme.kt,2/7/27cc00b15a14ae607bae6d7feda69a73fb54d567
 u
 Eapp/src/main/java/com/example/navi/ui/activity/fragment/theme/Type.kt,a/0/a0a42cf6d60f7f300f987402be6704352c556a32
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-
-Oapp/src/main/java/com/example/navi/ui/activity/fragment/data/BenefitListItem.kt,7/2/72ee8ba26ff2c09ef2089581b9af87ed0ebe504d
-x
-Happ/src/main/java/com/example/navi/ui/activity/fragment/data/Benefits.kt,2/5/2559b3aba6668d323f79b91b218bfa2ca51bb984
-ƒ
-Sapp/src/main/java/com/example/navi/ui/activity/fragment/data/BenefitsHomeContent.kt,9/6/96769787139477a56b01683b3042810854098428
-}
-Mapp/src/main/java/com/example/navi/ui/activity/fragment/data/BenefitsTitle.kt,0/0/00c91aa2a8fa7dab65b723e4520a3c5564fc753d
-
-Qapp/src/main/java/com/example/navi/ui/activity/fragment/data/BenefitsTitleHome.kt,f/8/f8223f9d2cb83e14fca48c07d080bd6d4d83688c
-‚
-Rapp/src/main/java/com/example/navi/ui/activity/fragment/data/BenefitsTitleImage.kt,d/4/d44de849d8bff2f506b4048c8d288bae52bf0546
-|
-Lapp/src/main/java/com/example/navi/ui/activity/fragment/data/DataProvider.kt,f/a/fa41f4b81394c517099ec868a8a02b02f93c071b
-w
-Gapp/src/main/java/com/example/navi/ui/activity/fragment/HomeFragment.kt,5/b/5b6a663be6d8ad91d0cdf62d30d756a585c88f25
-~
-Napp/src/main/java/com/example/navi/ui/activity/fragment/util/SetUpOfToolBar.kt,8/7/8794b659b3ab2ee4b1db79e23f0b01c552dab272

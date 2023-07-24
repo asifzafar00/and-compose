@@ -1,15 +1,20 @@
 package com.example.navi.ui.activity.fragment.util
 
 import android.util.Log
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleObserver
-import androidx.lifecycle.OnLifecycleEvent
+import androidx.lifecycle.*
 
-class Observer:LifecycleObserver {
+class Observer : DefaultLifecycleObserver {
 
-    private  val TAG = "Observer"
-    @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
-    fun ObserverOnCreate(){
-        Log.e(TAG, "ObserverOnCreate: " )
+    private val TAG = "Observer"
+
+    override fun onCreate(owner: LifecycleOwner) {
+        super.onCreate(owner)
+        Log.e(TAG, "onCreate")
     }
+
+    override fun onResume(owner: LifecycleOwner) {
+        super.onResume(owner)
+        Log.e(TAG, "onResume")
+    }
+
 }
